@@ -57,6 +57,9 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
 # Provides higher-level image processing helpers that are commonly needed when handling image uploads [https://rubygems.org/gems/image_processing]
 gem 'image_processing', '~> 1.12', '>= 1.12.2'
 
+# Add simple validations
+gem 'active_storage_validations', '~> 1.0', '>= 1.0.4'
+
 
 
 
