@@ -63,6 +63,10 @@ gem 'active_storage_validations', '~> 1.0', '>= 1.0.4'
 # Provides integration between factory_bot and rails [https://rubygems.org/gems/factory_bot_rails]
 gem 'factory_bot_rails', '~> 6.2'
 
+# A runtime developer console [https://rubygems.org/gems/pry/versions/0.14.1]
+gem 'pry', '~> 0.14.1'
+
+
 
 
 group :development, :test do
