@@ -60,6 +60,8 @@ gem 'image_processing', '~> 1.12', '>= 1.12.2'
 # Add simple validations
 gem 'active_storage_validations', '~> 1.0', '>= 1.0.4'
 
+# Provides integration between factory_bot and rails [https://rubygems.org/gems/factory_bot_rails]
+gem 'factory_bot_rails', '~> 6.2'
 
 
 
