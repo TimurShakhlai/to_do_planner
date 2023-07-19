@@ -54,6 +54,8 @@ gem 'rails-i18n', '~> 7.0', '>= 7.0.7'
 # A flexible authentication solution for Rails [https://rubygems.org/gems/devise]
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
+# Provides higher-level image processing helpers that are commonly needed when handling image uploads [https://rubygems.org/gems/image_processing]
+gem 'image_processing', '~> 1.12', '>= 1.12.2'
 
 
 
