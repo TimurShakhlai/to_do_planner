@@ -66,6 +66,8 @@ gem 'factory_bot_rails', '~> 6.2'
 # A runtime developer console [https://rubygems.org/gems/pry/versions/0.14.1]
 gem 'pry', '~> 0.14.1'
 
+# A library for generating fake data [https://rubygems.org/gems/faker]
+gem 'faker', '~> 3.2'
 
 
 
