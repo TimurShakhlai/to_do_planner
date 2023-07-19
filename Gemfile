@@ -51,6 +51,9 @@ gem "bootsnap", require: false
 # Centralization of locale data collection for Ruby on Rails [https://rubygems.org/gems/rails-i18n]
 gem 'rails-i18n', '~> 7.0', '>= 7.0.7'
 
+# A flexible authentication solution for Rails [https://rubygems.org/gems/devise]
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
 
 
 
