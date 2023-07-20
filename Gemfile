@@ -72,6 +72,9 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# Automatic Rails code style checking tool [https://rubygems.org/gems/rubocop-rails/versions/2.20.2]
+gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
+
 
 
 
