@@ -66,8 +66,12 @@ gem 'factory_bot_rails', '~> 6.2'
 # A runtime developer console [https://rubygems.org/gems/pry/versions/0.14.1]
 gem 'pry', '~> 0.14.1'
 
+# A Ruby code style checking [https://rubygems.org/gems/rubocop]
+gem 'rubocop', '~> 1.54', '>= 1.54.2'
+
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
+
 
 
 
