@@ -69,6 +69,10 @@ gem 'pry', '~> 0.14.1'
 # A Ruby code style checking [https://rubygems.org/gems/rubocop]
 gem 'rubocop', '~> 1.54', '>= 1.54.2'
 
+# A library for generating fake data [https://rubygems.org/gems/faker]
+gem 'faker', '~> 3.2'
+
+
 
 
 group :development, :test do
