@@ -72,7 +72,8 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-
+# Extracting `assigns` and `assert_template` from ActionDispatch [https://rubygems.org/gems/rails-controller-testing]
+gem 'rails-controller-testing', '~> 1.0', '>= 1.0.5'
 
 
 group :development, :test do
