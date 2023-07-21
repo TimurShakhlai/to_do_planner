@@ -72,7 +72,8 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-
+# An integration testing tool [https://rubygems.org/gems/capybara/versions/2.7.1]
+gem 'capybara', '~> 2.7', '>= 2.7.1'
 
 
 group :development, :test do
