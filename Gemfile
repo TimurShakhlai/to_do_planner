@@ -72,7 +72,8 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-
+# Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites [https://rubygems.org/gems/simplecov]
+gem 'simplecov', '~> 0.22.0'
 
 
 group :development, :test do
