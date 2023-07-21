@@ -72,7 +72,8 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-
+# A testing framework [https://rubygems.org/gems/rspec-rails/versions/3.4.2]
+gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 
 
 group :development, :test do
