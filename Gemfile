@@ -75,6 +75,17 @@ gem 'faker', '~> 3.2'
 # A debugging tool for Ruby on Rails applications [https://rubygems.org/gems/web-console/versions/3.3.1]
 gem 'web-console', '~> 3.3', '>= 3.3.1'
 
+# Code style checking for RSpec files [https://rubygems.org/gems/rubocop-rspec/versions/2.22.0]
+gem 'rubocop-rspec', '~> 2.22'
+
+# Strategies for cleaning databases [https://rubygems.org/gems/database_cleaner/versions/1.5.3]
+gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
+
+# Automatic Rails code style checking tool [https://rubygems.org/gems/rubocop-rails/versions/2.20.2]
+gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
+
+
+
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
