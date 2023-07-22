@@ -72,6 +72,9 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# A debugging tool for Ruby on Rails applications [https://rubygems.org/gems/web-console/versions/3.3.1]
+gem 'web-console', '~> 3.3', '>= 3.3.1'
+
 # Code style checking for RSpec files [https://rubygems.org/gems/rubocop-rspec/versions/2.22.0]
 gem 'rubocop-rspec', '~> 2.22'
 
