@@ -72,6 +72,8 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# Framework for developing responsive, mobile first projects on the web [https://rubygems.org/gems/bootstrap/versions/5.2.3]
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
 
 
 
