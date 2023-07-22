@@ -80,6 +80,7 @@ GEM
     coderay (1.1.3)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
+    database_cleaner (1.5.3)
     date (3.3.3)
     debug (1.8.0)
       irb (>= 1.5.0)
@@ -254,6 +255,7 @@ PLATFORMS
 DEPENDENCIES
   active_storage_validations (~> 1.0, >= 1.0.4)
   bootsnap
+  database_cleaner (~> 1.5, >= 1.5.3)
   debug
   devise (~> 4.9, >= 4.9.2)
   factory_bot_rails (~> 6.2)
