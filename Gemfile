@@ -72,6 +72,9 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# Code style checking for RSpec files [https://rubygems.org/gems/rubocop-rspec/versions/2.22.0]
+gem 'rubocop-rspec', '~> 2.22'
+
 # Strategies for cleaning databases [https://rubygems.org/gems/database_cleaner/versions/1.5.3]
 gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
