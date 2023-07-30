@@ -72,8 +72,7 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-# Run Selenium tests more easily [https://rubygems.org/gems/webdrivers/versions/3.2.0]
-gem 'webdrivers', '~> 3.2'
+
 
 
 group :development, :test do
@@ -92,3 +91,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Run Selenium tests more easily [https://rubygems.org/gems/webdrivers/versions/3.2.0]
+  gem 'webdrivers', '~> 3.2'
+end
