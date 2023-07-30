@@ -72,6 +72,9 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# Extracting `assigns` and `assert_template` from ActionDispatch [https://rubygems.org/gems/rails-controller-testing]
+gem 'rails-controller-testing', '~> 1.0', '>= 1.0.5'
+
 # A debugging tool for Ruby on Rails applications [https://rubygems.org/gems/web-console/versions/3.3.1]
 gem 'web-console', '~> 3.3', '>= 3.3.1'
 
@@ -83,6 +86,7 @@ gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
 # Automatic Rails code style checking tool [https://rubygems.org/gems/rubocop-rails/versions/2.20.2]
 gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
+
 
 
 
