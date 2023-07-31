@@ -113,7 +113,6 @@ group :development do
   # gem "spring"
 end
 
-
 gem "cssbundling-rails", "~> 1.2"
 
 gem "jsbundling-rails", "~> 1.1"
@@ -124,4 +123,7 @@ group :test do
 
   # Run Selenium tests more easily [https://rubygems.org/gems/webdrivers/versions/3.2.0]
   gem 'webdrivers', '~> 3.2'
+  
+  # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://rubygems.org/gems/shoulda-matchers/versions/5.3.0]
+  gem 'shoulda-matchers', '~> 5.3'
 end
