@@ -125,4 +125,7 @@ group :test do
   
   # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://rubygems.org/gems/shoulda-matchers/versions/5.3.0]
   gem 'shoulda-matchers', '~> 5.3'
+  
+  # An integration testing tool [https://rubygems.org/gems/capybara/versions/2.7.1]
+  gem 'capybara', '~> 2.7', '>= 2.7.1'
 end
