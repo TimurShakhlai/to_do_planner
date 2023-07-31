@@ -92,3 +92,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # A testing framework [https://rubygems.org/gems/rspec-rails/versions/3.4.2]
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
+end
