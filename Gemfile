@@ -72,6 +72,9 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
+# Framework for developing responsive, mobile first projects on the web [https://rubygems.org/gems/bootstrap/versions/5.2.3]
+gem 'bootstrap', '~> 5.2', '>= 5.2.3'
+
 # Code coverage for Ruby with a powerful configuration library and automatic merging of coverage across test suites [https://rubygems.org/gems/simplecov]
 gem 'simplecov', '~> 0.22.0'
 
@@ -109,6 +112,11 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
+
+
+gem "cssbundling-rails", "~> 1.2"
+
+gem "jsbundling-rails", "~> 1.1"
 
 group :test do
   # Protocol to automate popular browsers [https://rubygems.org/gems/selenium-webdriver/versions/4.4.0]
