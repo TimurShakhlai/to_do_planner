@@ -1,0 +1,38 @@
+name: CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.0
+
+      - name: Install dependencies
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+
+      - name: Run RuboCop
+        run: bundle exec rubocop
+
+      - name: Run tests and generate coverage report
+        run: |
+          bundle exec rspec --format documentation 
+          bundle exec rspec --format documentation --format RSpec::SimpleCov::Formatter
+
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v2.1.0
+        with:
+          token: ${{ 123codecov }}
+
