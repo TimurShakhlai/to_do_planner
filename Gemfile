@@ -110,3 +110,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Run Selenium tests more easily [https://rubygems.org/gems/webdrivers/versions/3.2.0]
+  gem 'webdrivers', '~> 3.2'
+end
