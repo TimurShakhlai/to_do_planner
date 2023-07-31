@@ -72,8 +72,7 @@ gem 'rubocop', '~> 1.54', '>= 1.54.2'
 # A library for generating fake data [https://rubygems.org/gems/faker]
 gem 'faker', '~> 3.2'
 
-# Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://rubygems.org/gems/shoulda-matchers/versions/5.3.0]
-gem 'shoulda-matchers', '~> 5.3'
+
 
 
 group :development, :test do
@@ -92,3 +91,7 @@ group :development do
   # gem "spring"
 end
 
+group :test do
+  # Provides RSpec- and Minitest-compatible one-liners to test common Rails functionality [https://rubygems.org/gems/shoulda-matchers/versions/5.3.0]
+  gem 'shoulda-matchers', '~> 5.3'
+end
