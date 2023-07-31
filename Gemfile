@@ -93,3 +93,7 @@ group :development do
   # gem "spring"
 end
 
+
+gem "cssbundling-rails", "~> 1.2"
+
+gem "jsbundling-rails", "~> 1.1"
