@@ -93,13 +93,12 @@ gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 # Automatic Rails code style checking tool [https://rubygems.org/gems/rubocop-rails/versions/2.20.2]
 gem 'rubocop-rails', '~> 2.20', '>= 2.20.2'
 
-
-
-
-
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  
+  # A testing framework [https://rubygems.org/gems/rspec-rails/versions/3.4.2]
+  gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
 end
 
 group :development do
