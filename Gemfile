@@ -111,6 +111,9 @@ group :development do
 end
 
 group :test do
+  # Protocol to automate popular browsers [https://rubygems.org/gems/selenium-webdriver/versions/4.4.0]
+  gem 'selenium-webdriver', '~> 4.4'
+
   # Run Selenium tests more easily [https://rubygems.org/gems/webdrivers/versions/3.2.0]
   gem 'webdrivers', '~> 3.2'
 end
